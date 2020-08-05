@@ -1,6 +1,7 @@
 
 # Desenhando a realidade.
-![Desenhando a realidade](https://github.com/manoelcasimiro/personalblips-io/blob/master/assets/img/grandmother.jpg)
+
+![Desenhado a Realidade](https://github.com/manoelcasimiro/personalblips-io/blob/master/assets/img/grandmother.jpg)
 
 Em grande parte do mundo, uma combinação de renda crescente e desigualdade de riqueza, desemprego tecnológico e polarização social, impulsionada por câmaras digitais de eco e mídias sociais “sempre ativas”, está rompendo o próprio tecido da sociedade. Muitas pessoas sentem um profundo anseio por um futuro mais simples, mais significativo e menos turbulento.
 
