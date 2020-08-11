@@ -6,42 +6,47 @@ category: Auto
 background: "#47650b"
 ---
 
+# Controle de Processo Industrial
+
 Existem diferentes controles a serem estudados, mas incialmente devemos conhecer seus fundamentos.
 
-### Planta: 
+## Planta: 
 É o sistema onde estão dispostos organizadamente os equipamentos e instrumentos de medição que formam as malhas de controle de produção. 
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/kSgkbis_Gj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Veja como funciona um planta fieldbus para Controle de Processo Industrial](https://www.youtube.com/embed/kSgkbis_Gj4)
 
-Controle Automático: 
+## Controle Automático: 
 Substituímos neste controle, as observações e decisões humanas por um instrumento CLP (controlador lógico programável), que torna automática a produção industrial.
 
-### PV: 
+## PV: 
 Variável de Processo: No controle industrial temos diferentes variáveis que afetam o processo na produção, sendo as mais importantes, a pressão, o nível, a temperatura e a vazão, sendo que a variável de processo é aquela que desejamos controlar. 
 ### SP: 
 Set Point: São os valores que desejamos que a variável de processo alcance, chamamos o set point de valores desejados. 
-### MV: 
+
+## MV: 
 Variável Manipulada: Modificamos valores de outra variável(MV), para que a variável de processo (PV) alcance o valor desejado ou set – point (SP).
+
 ## Erro: 
 Enquanto a variável que desejamos controlar (PV), não chegar ao valor desejado (SP), através das alterações da variável manipulada (MV), haverá um erro, representado por essa diferença entre o valor da PV e do SP. Podemos então representar o erro através da seguinte equação:
+
 > - Erro = PV – SP, quando os valores de PV e SP são diferentes.
 
-### Malha aberta: 
+## Malha aberta: 
 Entendemos com malha aberta, aquela que não corrige os erros, onde não temos a comparação entre a PV e o SP, a saída não está acoplada da entrada 
  
 ![malha](/assets/img/malha.jpg)
 
-### Malha fechada: 
+## Malha fechada: 
 Podemos dizer que é aquela que a saída está acoplada a entrada, onde a PV captada na saída é comparada com o SP definido na entrada, corrigindo o erro, levando o controle ao valor desejado (PV-SP = 0).  
 
 ![malhafechada](/assets/img/malhafechada.jpg)
 
 ## Formas de atuação do Controlador 
 
-Atuação Direta: 
+### Atuação Direta: 
 A atuação do controlador é direta, quando a variável de processo(PV) ao aumentar o seu valor em relação ao valor desejado(SP), provoca um aumento do valor da variável Manipulada(MV) na saída do controlador. 
 
-Atuação Reversa: 
+### Atuação Reversa: 
 A atuação do controlador é reversa, quando a variável de processo(PV) ao aumentar o seu valor em relação ao valor desejado(SP) provoca uma redução do valor da variável Manipulada(MV) na saída do controlador. 
 
 ## Algoritmos de controle 
