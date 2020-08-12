@@ -6,9 +6,9 @@ Existem diferentes controles a serem estudados, mas incialmente devemos conhecer
 ## Planta: 
 É o sistema onde estão dispostos organizadamente os equipamentos e instrumentos de medição que formam as malhas de controle de produção. 
 
-[![IMAGE ALT TEXT HERE](https://suporte.personalblips.com.br/wp-content/uploads/2020/08/ControlePross.png)](http://www.youtube.com/embed/kSgkbis_Gj4)
+[![IMAGE ALT TEXT HERE](https://suporte.personalblips.com.br/wp-content/uploads/2020/08/ControlePross.png)](https://www.youtube.com/embed/kSgkbis_Gj4)
 
-[VEJA O VÍDEO DEMONSTRATIVO]("http://www.youtube.com/embed/kSgkbis_Gj4")
+[VEJA O VÍDEO DEMONSTRATIVO](https://www.youtube.com/embed/kSgkbis_Gj4)
 
 ## Controle Automático: 
 Substituímos neste controle, as observações e decisões humanas por um instrumento CLP (controlador lógico programável), que torna automática a produção industrial.
