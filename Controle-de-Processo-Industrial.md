@@ -58,4 +58,4 @@ Quando a temperatura (PV) chegar ao valor de ajuste(SP) , o contato fechado do t
 
 Observamos que na ação On-off temos dois valores extremos, é tudo ou nada, para corrigirmos o erro(PV-SP)   
 
-![controleonoff](https://suporte.personalblips.com.br/wp-content/uploads/2020/08/ControlePross.png)
+![controleonoff](https://suporte.personalblips.com.br/wp-content/uploads/2020/08/controleonoff.jpg)
